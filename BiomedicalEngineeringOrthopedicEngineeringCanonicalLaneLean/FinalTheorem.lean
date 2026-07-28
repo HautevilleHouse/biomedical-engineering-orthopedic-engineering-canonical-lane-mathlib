@@ -1,0 +1,17 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HautevilleHouse.BiomedicalEngineeringOrthopedicEngineeringCanonicalLaneLean.CompartmentModel
+import HautevilleHouse.BiomedicalEngineeringOrthopedicEngineeringCanonicalLaneLean.Pharmacokinetics
+import HautevilleHouse.BiomedicalEngineeringOrthopedicEngineeringCanonicalLaneLean.SurvivalAnalysis
+
+namespace HautevilleHouse
+namespace BiomedicalEngineeringOrthopedicEngineeringCanonicalLaneLean
+
+def ConstrainedBiomedicalEngineeringOrthopedicEngineeringClosure (A : AdmissibleClass) : Prop :=
+  bridgeClosed A ∧ gateClosed A
+
+theorem constrained_biomedical_engineering_orthopedic_engineering_endgame (A : AdmissibleClass) :
+    ConstrainedBiomedicalEngineeringOrthopedicEngineeringClosure A := by
+  exact And.intro (bridge_from_admissible_class A) (gate_from_admissible_class A)
+
+end BiomedicalEngineeringOrthopedicEngineeringCanonicalLaneLean
+end HautevilleHouse
